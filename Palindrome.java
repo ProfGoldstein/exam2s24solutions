@@ -57,12 +57,12 @@ public class Palindrome{
         // Initializing to ASCII 255, which would be the "worst" string
         String bestString = String.valueOf((char) 255); 
 		
-		// Create input scanner and get a line of text
-		Scanner scan = new Scanner(System.in);
+	// Create input scanner and get a line of text
+	Scanner scan = new Scanner(System.in);
         String inputText = scan.nextLine();
         
         // Get the length of the text
-		int inputLength = inputText.length();
+	int inputLength = inputText.length();
 
         // Loop as long as we do not yet have a palindrome
         // Will terminate since a palindrome can be a single character
@@ -98,5 +98,4 @@ public class Palindrome{
         // Close the input scanner
         scan.close();
     }
-
 }
